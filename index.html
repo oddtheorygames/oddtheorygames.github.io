@@ -7,18 +7,22 @@
 <meta name="description" content="Games by Odd Theory.">
 <meta name="theme-color" content="#0b0b2a">
 <link rel="stylesheet" href="style.css">
+<meta property="og:title" content="Odd Theory">
+<meta property="og:description" content="Games by Odd Theory.">
+<meta property="og:image" content="https://oddtheorygames.github.io/logo.png">
+<meta property="og:type" content="website">
 </head>
 <body>
 <header class="site"><a class="brand" href="index.html">ODD THEORY</a><nav><a href="index.html">Games</a><a href="reel/index.html">REEL</a></nav></header>
 <main>
-<section class="hero">
-<h1 style="font-size:3rem">ODD THEORY</h1>
-<p style="font-size:1.25rem">Games by Odd Theory.</p>
-</section>
+<h1 class="sr">Odd Theory</h1>
+<div class="logo"><video id="logo" autoplay muted loop playsinline poster="logo.png" aria-label="Odd Theory Games logo"><source src="logo.mp4" type="video/mp4"></video></div>
+<p class="tagline">Games by Odd Theory.</p>
+<script>if(matchMedia("(prefers-reduced-motion: reduce)").matches){var v=document.getElementById("logo");v.removeAttribute("autoplay");v.pause();}</script>
 <h2>Games</h2>
-<a class="card" href="reel/index.html" style="display:block;text-decoration:none">
-<strong style="font-size:1.3rem;color:var(--accent)">REEL</strong>
-<p style="margin:.3em 0 0">A one-button swinging arcade climb through four glowing worlds.</p>
+<a class="card game" href="reel/index.html">
+<img src="reel/reel-icon.jpg" alt="REEL icon" width="96" height="96">
+<div><strong>REEL</strong><p>A one-button swinging arcade climb through four glowing worlds.</p></div>
 </a>
 <p class="dim">More games coming.</p>
 <h2>Contact</h2>

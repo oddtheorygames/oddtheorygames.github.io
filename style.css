@@ -15,4 +15,13 @@ a{color:var(--accent)}
 .hero h1{font-size:4rem;letter-spacing:.12em;color:var(--accent);margin:.1em 0}
 .card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:18px 20px;margin:20px 0}
 pre.lic{white-space:pre-wrap;word-break:break-word;font:13px/1.5 ui-monospace,Consolas,monospace;background:rgba(0,0,0,.35);border:1px solid var(--line);border-radius:12px;padding:16px;max-height:70vh;overflow:auto}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+.logo{display:block;margin:12px auto 0;width:min(100%,360px);aspect-ratio:1;border-radius:22px;background:#040405;overflow:hidden;box-shadow:0 0 0 1px var(--line),0 12px 40px rgba(0,0,0,.45)}
+.logo video,.logo img{display:block;width:100%;height:100%;object-fit:cover}
+.tagline{text-align:center;font-size:1.25rem;margin:18px 0 0}
+a.game{display:flex;gap:16px;align-items:center;text-decoration:none;color:inherit}
+a.game img{width:96px;height:96px;border-radius:22px;flex:none;box-shadow:0 0 0 1px var(--line),0 8px 24px rgba(0,0,0,.35)}
+a.game strong{font-size:1.3rem;color:var(--accent)}
+a.game p{margin:.3em 0 0}
+.hero-icon{display:block;width:128px;height:128px;border-radius:28px;margin:0 0 14px;box-shadow:0 0 0 1px var(--line),0 10px 30px rgba(0,0,0,.4)}
 footer{max-width:720px;margin:0 auto;padding:0 16px 40px;color:var(--dim);font-size:14px}
